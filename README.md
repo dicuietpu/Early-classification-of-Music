@@ -30,22 +30,23 @@ Python packages:
 * **Shutil**
 * **Os**
 * **Csv**
+
 Jupyter Notebook (with IPython kernel)
 
 ### Data Sets
 
 There are two datasets used in this project. Basic experiments were performed using the GTZAN dataset. A brief of the data set:
-This dataset was used for the well known paper in genre classification " Musical genre classification of audio signals " by G. Tzanetakis and P. Cook in IEEE Transactions on Audio and Speech Processing 2002.
-The files were collected in 2000-2001 from a variety of sources including personal CDs, radio, microphone recordings, in order to represent a variety of recording conditions.
-The dataset consists of 1000 audio tracks each 30 seconds long. It contains 10 genres, each represented by 100 tracks. The tracks are all 22050Hz Mono 16-bit audio files in .wav format.
-Official web-page: marsyas.info
-Download size: Approximately 1.2GB
+* **This dataset was used for the well known paper in genre classification " Musical genre classification of audio signals " by G. Tzanetakis and P. Cook in IEEE Transactions on Audio and Speech Processing 2002.**
+* **The files were collected in 2000-2001 from a variety of sources including personal CDs, radio, microphone recordings, in order to represent a variety of recording conditions.**
+* **The dataset consists of 1000 audio tracks each 30 seconds long. It contains 10 genres, each represented by 100 tracks. The tracks are all 22050Hz Mono 16-bit audio files in .wav format.**
+* **Official web-page: marsyas.info**
+* **Download size: Approximately 1.2GB**
 The genre rock was used from this dataset and another folder non-rock was created by using 11 songs each from the rest of the genres to perform binary rock verse non rock classification.
 Since the files in the dataset are in the au format, which is lossy because of compression, they need to be converted in the wav format (which is lossless) before we proceed further.
 
 The second dataset is our self-created dataset created from our own music library. A brief of the dataset :
-There are two folders named as dance and non-dance and they contain 200 songs each.
-The duration of the tracks is 30 seconds each.
+* **There are two folders named as dance and non-dance and they contain 200 songs each.**
+* **The duration of the tracks is 30 seconds each.**
 
 
 ## Code
