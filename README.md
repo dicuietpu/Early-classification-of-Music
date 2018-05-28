@@ -10,14 +10,23 @@ The main objective of our project is to create a model which is able to classify
 
 To use this work on your researches or projects you need:
 Python 3.6.3
+
 Python packages:
-IPython
-Numpy
+
+* **IPython**
+
+* **Numpy**
+
 Scipy
+
 Pandas
+
 Scikit-learn
+
 Librosa [1]
+
 Matplotlib
+
 Pydub
 Shutil
 Os
