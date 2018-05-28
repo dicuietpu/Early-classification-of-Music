@@ -41,6 +41,7 @@ There are two datasets used in this project. Basic experiments were performed us
 * **The dataset consists of 1000 audio tracks each 30 seconds long. It contains 10 genres, each represented by 100 tracks. The tracks are all 22050Hz Mono 16-bit audio files in .wav format.**
 * **Official web-page: marsyas.info**
 * **Download size: Approximately 1.2GB**
+
 The genre rock was used from this dataset and another folder non-rock was created by using 11 songs each from the rest of the genres to perform binary rock verse non rock classification.
 Since the files in the dataset are in the au format, which is lossy because of compression, they need to be converted in the wav format (which is lossless) before we proceed further.
 
