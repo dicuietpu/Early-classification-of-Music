@@ -9,7 +9,6 @@ The main objective of our project is to create a model which is able to classify
 ### Prerequisites
 
 To use this work on your researches or projects you need:
-Python 3.6.3
 
 Python packages:
 
@@ -17,20 +16,20 @@ Python packages:
 
 * **Numpy**
 
-Scipy
+* **Scipy**
 
-Pandas
+* **Pandas**
 
-Scikit-learn
+* **Scikit-learn**
 
-Librosa [1]
+* **Librosa**
 
-Matplotlib
+* **Matplotlib**
 
-Pydub
-Shutil
-Os
-Csv
+* **Pydub**
+* **Shutil**
+* **Os**
+* **Csv**
 Jupyter Notebook (with IPython kernel)
 
 ### Data Sets
@@ -52,9 +51,9 @@ The duration of the tracks is 30 seconds each.
 ## Code
 
 Documentation
-STEP 1 - Conversion.py: USAGE: This code is used to convert the audio files from .au and .mp3 to .wav format.
-STEP 2 - Framing and FeatureExtraction.py: USAGE: This code is used to extract the required features from the audio files frame-wise and also for writing those features into a csv file.
-STEP 3 - Classification.py: USAGE: This code is used to load the csv file, split it into train and test sets and applying svm classifier on it. The trained model is then used for predicting the output of the test set. At last, majority voting is applied on audio tracks one by one to check the result of a particular track frame-wise.
+* **STEP 1 - Conversion.py: USAGE: This code is used to convert the audio files from .au and .mp3 to .wav format.**
+* **STEP 2 - Framing and FeatureExtraction.py: USAGE: This code is used to extract the required features from the audio files frame-wise and also for writing those features into a csv file.**
+* **STEP 3 - Classification.py: USAGE: This code is used to load the csv file, split it into train and test sets and applying svm classifier on it. The trained model is then used for predicting the output of the test set. At last, majority voting is applied on audio tracks one by one to check the result of a particular track frame-wise.**
 
 
 
@@ -64,8 +63,8 @@ Python 3.6.3
 
 
 ### Authors
-Ridhi Sharma
-Urvi Fotedar
+* **Ridhi Sharma**
+* **Urvi Fotedar**
 
 ## Acknowledgments
 
